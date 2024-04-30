@@ -138,9 +138,9 @@ export FASTRTPS_DEFAULT_PROFILES_FILE=~/.ros/fastdds.xml
 #custom aliases
 alias ros2topics='watch -n 0.1 ros2 topic list'
 alias clip='xclip -sel clip'
-alias ls='exa -a --icons'
+alias l='exa -a --icons'
 alias ll='exa -alF --icons'
-alias l='ls'
+#alias l='ls'
 alias rsyncdir='rsync -ahr --info=progress2'
 #virtualenvwrapper
 export WORKON_HOME=$HOME/.virtualenvs && source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
